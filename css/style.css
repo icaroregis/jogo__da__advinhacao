@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", arial;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(287deg, #c2e9fb, #a1c4fd);
+  font-size: 1.6rem;
+}
+
+main {
+  background-color: #fff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.6rem;
+  padding: 4.8rem 6.4rem 6.4rem;
+  width: min(48.2rem, 90%);
+  text-align: center;
+}
+
+/* screen1 */
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+h1,
+p {
+  color: #34355b;
+}
+
+p {
+  opacity: 0.8;
+}
+
+form {
+  margin-top: 4.8rem;
+}
+
+form input,
+form button {
+  border: none;
+  padding: 1.6rem;
+}
+
+input {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-right: -5px;
+  background-color: #dce2e9;
+  width: 7rem;
+}
+
+button {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #9090d1;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* screen2 */
+h2 {
+  font-size: 2.4rem;
+  font-weight: normal;
+  margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+  border-radius: 0.4rem;
+  cursor: pointer;
+  padding: 1.6rem;
+  border: none;
+}
+
+.screen2 button:hover {
+  background-color: #7070e7;
+}
